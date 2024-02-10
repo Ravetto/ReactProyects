@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const TwitterCard = ({name, username, isFollowing}) => {
+export function TwitterCard({name, username, isFollowing}){
     const imageSrc = `https://unavatar.io/${username}`
   return (
     <>
